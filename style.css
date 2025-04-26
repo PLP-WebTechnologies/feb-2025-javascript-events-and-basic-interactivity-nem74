@@ -1,0 +1,80 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover element */
+#hoverElement {
+    display: inline-block;
+    padding: 20px;
+    background-color: lightblue;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Image gallery styles */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Tabs styles */
+.tabs {
+    margin-top: 30px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Show active tab */
+.tab.active {
+    background-color: #ccc;
+}
+
+/* Form styling */
+form {
+    margin-top: 40px;
+    text-align: left;
+    display: inline-block;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 200px;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+}
+
+/* Hover animation */
+#hoverElement:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
